@@ -5,12 +5,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Estimate Net Pay</title>
+    <h1>Net Pay Calculator</h1>
     <link rel="stylesheet" type="text/css" href="./css/Style.css" />
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
+    <div id="wrapApp">
+        <div>
         <asp:Label ID="hourWageLabel" runat="server" Text="Hourly wage"></asp:Label>
         <p>
             <asp:TextBox ID="hourlyWageTextBox" runat="server"></asp:TextBox>
@@ -50,9 +51,8 @@
             <br />
             <asp:Label ID="netPayLabel" runat="server" Text="Net Pay:" Visible="False"></asp:Label> &nbsp &nbsp &nbsp &nbsp
             <asp:Label ID="netpayResultLabel" runat="server"></asp:Label>
-        <p>
-            &nbsp;</p>
-        </div>
+       </div>
+      </div>
     </form>
 </body>
 </html>

@@ -1,5 +1,14 @@
 ﻿body {
     background-color:aliceblue;
     padding:20px;
+}
 
+#wrapApp {
+    border:solid 2px;
+    width:500px;
+    padding:20px;
+}
+
+h1 {
+    font-weight:bold;
 }
