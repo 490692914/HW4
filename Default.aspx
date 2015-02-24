@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Estimate Net Pay</title>
+    <h1>Net Pay Calculator</h1>
     <link rel="stylesheet" type="text/css" href="./css/Style.css" />
 </head>
 <body>
