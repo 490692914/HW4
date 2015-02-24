@@ -5,7 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Estimate Net Pay</title>
-    <h1>Net Pay Calculator</h1>
     <link rel="stylesheet" type="text/css" href="./css/Style.css" />
 </head>
 <body>
@@ -25,20 +24,12 @@
         <div>
             <p>
             <asp:TextBox ID="pretaxDeductTextBox" runat="server">0</asp:TextBox> &nbsp &nbsp &nbsp &nbsp
-            <asp:DropDownList ID="preTaxDropDownList" runat="server">
-                <asp:ListItem Selected="True" Value="1">% of gross pay</asp:ListItem>
-                <asp:ListItem Value="2">$ Fixed Amount</asp:ListItem>
-            </asp:DropDownList>
-        </p>
+            </p>
         </div>
         <div>
         <asp:Label ID="afterTaxDeductionLabel" runat="server" Text="After tax deduction"></asp:Label>
         <p>
             <asp:TextBox ID="afterTaxDeductionTextBox" runat="server">0</asp:TextBox> &nbsp &nbsp &nbsp &nbsp
-            <asp:DropDownList ID="afterTaxDeductDropDownList" runat="server">
-                <asp:ListItem Selected="True" Value="1">% of net pay</asp:ListItem>
-                <asp:ListItem Value="2">$ Fixed Amount</asp:ListItem>
-            </asp:DropDownList>
         </div>
         <div id="buttons">
         <asp:Button ID="calculateButton" runat="server" Text="Calculate" />
